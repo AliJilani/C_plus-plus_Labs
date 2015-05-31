@@ -10,7 +10,9 @@ double fact(double num)
 	for (nfact = 1; num > 0; num--)
 	{
 		nfact = nfact*num;
-	}	return nfact;
+	}
+
+	return nfact;
 }
 
 int main()
